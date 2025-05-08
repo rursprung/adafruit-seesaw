@@ -10,6 +10,7 @@ and this project (hopefully) adheres to [Semantic Versioning](https://semver.org
 ### Added
 
 - [#18](https://github.com/alexeden/adafruit-seesaw/pull/18) Add `DirectI2cSeesaw` which avoids using a custom bus implementation. Use this together with [embedded-hal-bus](https://crates.io/crates/embedded-hal-bus).
+- [#19](https://github.com/alexeden/adafruit-seesaw/pull/19) Add one feature per device and module, allowing disabling all and only enabling those needed. This allows building some of them on stable rust.
 
 ## [0.11.0] - 2025-02-07
 
